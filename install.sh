@@ -1,6 +1,6 @@
 
 echo "Hello Chenghao!"
-echo "Hello Chenghao! Nice to Meet you in $(date)" >> /root/logs.txt
+echo "Hello Chenghao! Nice to Meet you in $(date)" >> /workspaces/.codespaces/logs.txt
 
 
 
