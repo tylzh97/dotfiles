@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "Hello Chenghao!"
-echo "Hello Chenghao! Nice to Meet you in $(date)" >> /root/logs.txt
+sudo echo "Hello Chenghao!"
+sudo echo "Hello Chenghao! Nice to Meet you in $(date)" >> /root/logs.txt
 
 # Step 1: 配置 .ssh/id_rsa 和权限
 setup_ssh_keys() {
